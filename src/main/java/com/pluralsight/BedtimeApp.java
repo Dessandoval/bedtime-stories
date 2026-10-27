@@ -23,7 +23,6 @@ public class BedtimeApp {
                 System.out.println(lineNumber + " " + line);
                 line = bufferedReader.readLine();
                 lineNumber++;
-
             }
             bufferedReader.close();
 
