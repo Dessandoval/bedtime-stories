@@ -23,10 +23,12 @@ public class BedtimeApp {
                 System.out.println(lineNumber + " " + line);
                 line = bufferedReader.readLine();
                 lineNumber++;
+
             }
+            bufferedReader.close();
 
         } catch (IOException e) {
-            System.out.println("Cannot find file, please re-input story.");
+            System.out.println("Cannot find that story. Run the program again and check the spelling.");
 //            e.printStackTrace();
         }
         scanner.close();
